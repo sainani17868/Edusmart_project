@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EduSmart – Quality Education based on UN Sustainable Development Goal 4 (SDG 4). Learn, Grow, and Build a Better Future.">
+  <title>EduSmart – Quality Education</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+          <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+        </svg>
+        <span>Edu<span class="highlight">Smart</span></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href="#awareness" class="nav-link">Awareness</a></li>
+        <li class="nav-item"><a href="#quiz" class="nav-link">Quiz</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section (Hero) -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="sdg-badge">UN SDG 4: Quality Education</div>
+          <h1 class="hero-title">Quality Education for Everyone</h1>
+          <p class="hero-subtitle">Learn, Grow, and Build a Better Future.</p>
+          <p class="hero-description">
+            Education is a fundamental human right that unlocks potential, breaks cycles of poverty, 
+            and fuels innovation. Join us in building an inclusive world where knowledge is accessible to all.
+          </p>
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-primary">Start Learning</a>
+            <a href="#about" class="btn btn-outline">Explore SDG 4</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-display">
+            <div class="illustration-circle">
+              <svg viewBox="0 0 200 200" class="hero-svg">
+                <circle cx="100" cy="100" r="85" fill="#eff6ff" stroke="#2563eb" stroke-width="4" stroke-dasharray="6 6"/>
+                <!-- Open Book -->
+                <path d="M40 135 C 70 120, 95 125, 100 145 C 105 125, 130 120, 160 135 L 160 85 C 130 70, 105 75, 100 95 C 95 75, 70 70, 40 85 Z" fill="#2563eb" opacity="0.9"/>
+                <path d="M100 95 L 100 145" stroke="#ffffff" stroke-width="2"/>
+                <!-- Graduation Cap Floating -->
+                <polygon points="100,38 145,55 100,72 55,55" fill="#10b981"/>
+                <polygon points="100,72 135,60 135,80 100,90 65,80 65,60" fill="#059669"/>
+                <line x1="140" y1="58" x2="145" y2="85" stroke="#f59e0b" stroke-width="2.5"/>
+                <circle cx="145" cy="87" r="3" fill="#f59e0b"/>
+                <!-- Rising Sparkles/Stars -->
+                <circle cx="50" cy="50" r="4" fill="#10b981"/>
+                <circle cx="155" cy="40" r="3" fill="#2563eb"/>
+                <circle cx="165" cy="110" r="4" fill="#10b981"/>
+                <circle cx="35" cy="105" r="3" fill="#3b82f6"/>
+              </svg>
+            </div>
+            <div class="floating-badge badge-top">
+              <span class="badge-icon">&#10003;</span>
+              <span>100% Free & Open Access</span>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <span class="badge-icon">&#9733;</span>
+              <span>Empowering Global Minds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Our Mission</span>
+          <h2 class="section-title">United Nations SDG 4: Quality Education</h2>
+          <p class="section-desc">
+            Sustainable Development Goal 4 aims to "ensure inclusive and equitable quality education 
+            and promote lifelong learning opportunities for all" by 2030.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon bg-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3>Equal Access to Education</h3>
+            <p>
+              Eliminating gender, regional, and socioeconomic disparities in education to ensure every boy and girl receives complete, free, and equitable primary and secondary schooling.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon bg-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <h3>Inclusive Learning</h3>
+            <p>
+              Creating safe, welcoming, and non-violent learning environments tailored to children with disabilities, marginalized communities, and diverse backgrounds.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon bg-teal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+            <h3>Lifelong Learning</h3>
+            <p>
+              Equipping youth and adults with relevant technical, technological, and vocational skills for decent jobs, entrepreneurship, and sustainable living in modern society.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-banner">
+          <div class="banner-text">
+            <h4>Why Quality Education Matters</h4>
+            <p>Education reduces inequality, fosters peace, improves health, and enables societies to innovate for a greener, fairer world.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Skills for Tomorrow</span>
+          <h2 class="section-title">Explore Foundational Courses</h2>
+          <p class="section-desc">Learn essential digital skills with beginner-friendly modular topics designed for universal access.</p>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Course 1 -->
+          <div class="course-card">
+            <div class="course-icon-wrapper">
+              <svg viewBox="0 0 24 24" class="course-svg" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="course-content">
+              <span class="course-level">Beginner</span>
+              <h3 class="course-title">HTML and CSS</h3>
+              <p class="course-desc">Master the fundamental building blocks of the web. Learn to structure web pages and style them beautifully.</p>
+              <button class="btn btn-card learn-more-btn" data-course="html-css">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Course 2 -->
+          <div class="course-card">
+            <div class="course-icon-wrapper">
+              <svg viewBox="0 0 24 24" class="course-svg" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="course-content">
+              <span class="course-level">Beginner to Intermediate</span>
+              <h3 class="course-title">JavaScript Basics</h3>
+              <p class="course-desc">Bring your websites to life with interactivity, variables, functions, DOM manipulation, and dynamic logic.</p>
+              <button class="btn btn-card learn-more-btn" data-course="javascript">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course-card">
+            <div class="course-icon-wrapper">
+              <svg viewBox="0 0 24 24" class="course-svg" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <div class="course-content">
+              <span class="course-level">Beginner Friendly</span>
+              <h3 class="course-title">Python Programming</h3>
+              <p class="course-desc">Learn clear and readable syntax for versatile programming, data handling, automation, and problem solving.</p>
+              <button class="btn btn-card learn-more-btn" data-course="python">Learn More</button>
+            </div>
+          </div>
+
+          <!-- Course 4 -->
+          <div class="course-card">
+            <div class="course-icon-wrapper">
+              <svg viewBox="0 0 24 24" class="course-svg" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <div class="course-content">
+              <span class="course-level">Foundational</span>
+              <h3 class="course-title">Introduction to AI</h3>
+              <p class="course-desc">Understand basic concepts of Artificial Intelligence, how computers learn from patterns, and ethical AI for society.</p>
+              <button class="btn btn-card learn-more-btn" data-course="ai">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Resource Modal -->
+    <div id="course-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-overlay" id="modal-overlay"></div>
+      <div class="modal-dialog">
+        <button class="modal-close" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+        <div class="modal-header">
+          <span class="modal-tag" id="modal-tag">Course Details</span>
+          <h3 id="modal-title" class="modal-title">Course Title</h3>
+        </div>
+        <div class="modal-body">
+          <p id="modal-description" class="modal-desc"></p>
+          <div class="modal-topics">
+            <h4>What You Will Learn:</h4>
+            <ul id="modal-topics-list"></ul>
+          </div>
+          <div class="modal-note" id="modal-note">
+            Tip: Practice consistently 30 minutes a day to master these concepts!
+          </div>
+        </div>
+        <div class="modal-footer" style="display: flex; gap: 0.75rem; justify-content: flex-end; flex-wrap: wrap;">
+          <button type="button" class="btn btn-outline" id="modal-dismiss-btn">Close</button>
+          <button type="button" class="btn btn-primary" id="modal-practice-btn">Practice This Course &rarr;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Awareness Section -->
+    <section id="awareness" class="awareness-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Advocacy & Impact</span>
+          <h2 class="section-title">Education Awareness</h2>
+          <p class="section-desc">Key pillars driving sustainable educational development and community empowerment across the globe.</p>
+        </div>
+
+        <div class="awareness-grid">
+          <!-- Card 1 -->
+          <div class="awareness-card">
+            <div class="awareness-badge">Pillar 1</div>
+            <h3>Education for Everyone</h3>
+            <p>
+              Universal access to education builds a fair and enlightened society. Ensuring that financial barriers, geographic location, or social status never stop an aspiring student from receiving quality learning.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="awareness-card">
+            <div class="awareness-badge">Pillar 2</div>
+            <h3>Digital Learning</h3>
+            <p>
+              Modern technology bridges geographical divides. Online tutorials, open educational resources, and interactive platforms empower students everywhere to learn anytime, anywhere at their own pace.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="awareness-card">
+            <div class="awareness-badge">Pillar 3</div>
+            <h3>Equal Learning Opportunities</h3>
+            <p>
+              Gender parity, disability support, and cultural inclusion ensure that diverse voices are represented in classrooms and modern career opportunities, creating a truly inclusive future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section section-padding">
+      <div class="container quiz-container">
+        <div class="section-header">
+          <span class="section-tag">Interactive Challenge</span>
+          <h2 class="section-title">Knowledge Check Quiz</h2>
+          <p class="section-desc">Test your understanding of SDG 4 and basic computer science fundamentals in this 5-question quick quiz.</p>
+        </div>
+
+        <div class="quiz-box" id="quiz-box">
+          <!-- Course Practice Selector (Connected to Flask API) -->
+          <div class="quiz-course-bar">
+            <span class="quiz-bar-label">Select Course to Practice:</span>
+            <div class="quiz-pills" id="quiz-pills">
+              <button type="button" class="quiz-pill active" data-course="all">All Topics (SDG 4)</button>
+              <button type="button" class="quiz-pill" data-course="html-css">HTML &amp; CSS</button>
+              <button type="button" class="quiz-pill" data-course="javascript">JavaScript Basics</button>
+              <button type="button" class="quiz-pill" data-course="python">Python</button>
+              <button type="button" class="quiz-pill" data-course="ai">Artificial Intelligence</button>
+            </div>
+          </div>
+
+          <form id="quiz-form">
+            <div id="questions-container">
+              <!-- Question 1 -->
+              <div class="question-block" data-qindex="1">
+                <h4 class="question-text"><span class="q-num">1.</span> What is the primary focus of UN Sustainable Development Goal 4 (SDG 4)?</h4>
+                <div class="options-group">
+                  <label class="option-label">
+                    <input type="radio" name="q1" value="0">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Industrial Automation & Robotics</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q1" value="1">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Inclusive and Equitable Quality Education for All</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q1" value="2">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Deep Ocean Exploration & Marine Biology</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q1" value="3">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Global Space Colonization</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Question 2 -->
+              <div class="question-block" data-qindex="2">
+                <h4 class="question-text"><span class="q-num">2.</span> Which HTML tag is used to create a hyperlink on a webpage?</h4>
+                <div class="options-group">
+                  <label class="option-label">
+                    <input type="radio" name="q2" value="0">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">&lt;link&gt;</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q2" value="1">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">&lt;href&gt;</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q2" value="2">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">&lt;a&gt;</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q2" value="3">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">&lt;hyper&gt;</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Question 3 -->
+              <div class="question-block" data-qindex="3">
+                <h4 class="question-text"><span class="q-num">3.</span> What does CSS stand for in web development?</h4>
+                <div class="options-group">
+                  <label class="option-label">
+                    <input type="radio" name="q3" value="0">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Cascading Style Sheets</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q3" value="1">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Computer Standard Syntax</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q3" value="2">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Creative System Styling</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q3" value="3">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Centralized Sheet Structure</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Question 4 -->
+              <div class="question-block" data-qindex="4">
+                <h4 class="question-text"><span class="q-num">4.</span> Which hardware component is commonly known as the "brain" of a computer?</h4>
+                <div class="options-group">
+                  <label class="option-label">
+                    <input type="radio" name="q4" value="0">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">RAM (Random Access Memory)</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q4" value="1">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Hard Disk Drive (HDD)</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q4" value="2">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">Monitor</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q4" value="3">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">CPU (Central Processing Unit)</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Question 5 -->
+              <div class="question-block" data-qindex="5">
+                <h4 class="question-text"><span class="q-num">5.</span> Why is lifelong and inclusive learning vital for sustainable development?</h4>
+                <div class="options-group">
+                  <label class="option-label">
+                    <input type="radio" name="q5" value="0">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">It empowers individuals, reduces poverty, and fosters equitable societies</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q5" value="1">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">It is only beneficial for software developers</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q5" value="2">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">It eliminates the requirement of practical hands-on experience</span>
+                  </label>
+                  <label class="option-label">
+                    <input type="radio" name="q5" value="3">
+                    <span class="custom-radio"></span>
+                    <span class="option-text">It is only needed until someone completes high school</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="quiz-footer">
+              <button type="submit" class="btn btn-primary" id="quiz-submit-btn">Submit Quiz</button>
+            </div>
+          </form>
+
+          <!-- Quiz Result Card (Hidden until submitted) -->
+          <div id="quiz-result" class="quiz-result hidden">
+            <div class="result-circle">
+              <span id="score-display">0</span>/<span id="total-display">5</span>
+            </div>
+            <h3 id="result-title" class="result-title">Quiz Completed!</h3>
+            <p id="result-message" class="result-message"></p>
+            <button type="button" class="btn btn-outline" id="restart-quiz-btn">Restart Quiz</button>
+          </div>
+        </div>
+
+        <!-- Student Practice Progress Dashboard (Connected to SQLite Backend) -->
+        <div class="progress-box" id="progress-box">
+          <div class="progress-header">
+            <div>
+              <span class="section-tag" style="margin-bottom: 0.25rem;">Live SQLite Data</span>
+              <h3 class="progress-title">Your Practice Progress</h3>
+            </div>
+            <button type="button" class="btn btn-outline btn-sm" id="refresh-progress-btn">&#x21bb; Refresh Progress</button>
+          </div>
+          <div class="progress-stats-grid">
+            <div class="stat-card">
+              <span class="stat-number" id="stat-attempts">0</span>
+              <span class="stat-label">Total Attempts</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" id="stat-avg">0%</span>
+              <span class="stat-label">Average Score</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" id="stat-best">0%</span>
+              <span class="stat-label">Best Score</span>
+            </div>
+          </div>
+          <div class="recent-attempts-wrapper">
+            <h4 class="recent-attempts-title">Recent Practice Sessions</h4>
+            <div id="recent-attempts-list" class="recent-attempts-list">
+              <p class="empty-state">Loading your practice history from server...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container contact-container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Join the Quality Education Movement</h2>
+          <p class="section-desc">Have a question or want to collaborate on education initiatives? Send us a message.</p>
+        </div>
+
+        <div class="contact-card">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name">Full Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="Enter your full name" required>
+              <span class="form-error" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" name="email" placeholder="example@domain.com" required>
+              <span class="form-error" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Your Message</label>
+              <textarea id="contact-message" name="message" rows="4" placeholder="How can we help or collaborate on education?" required></textarea>
+              <span class="form-error" id="message-error"></span>
+            </div>
+
+            <div class="form-disclaimer">
+              <small><strong>Note:</strong> This is an interactive college demonstration form. Input is validated locally in your browser.</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="contact-submit-btn">Send Message</button>
+          </form>
+
+          <!-- Contact Success Alert -->
+          <div id="contact-feedback" class="feedback-box hidden" role="alert"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+          <span>Edu<span class="highlight">Smart</span></span>
+        </div>
+        <p class="footer-motto">United Nations SDG 4: Quality Education</p>
+        <p class="footer-desc">
+          Empowering learners worldwide through accessible, inclusive, and modern knowledge. 
+          Together, we can achieve education for all.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About SDG 4</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#awareness">Awareness</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-info">
+        <h4>College Project</h4>
+        <p>Demonstration Website for Sustainable Development Goal 4 (SDG 4).</p>
+        <p class="tech-tag">Built with HTML5 &bull; CSS3 &bull; JavaScript</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-container">
+        <p>&copy; 2026 EduSmart. All rights reserved. Supporting UN SDG 4.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
